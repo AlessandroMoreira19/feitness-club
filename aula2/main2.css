@@ -4,9 +4,65 @@
 #orange{color:orange;}  
 .yellow{color:yellow;}  
 #yellow{color:yellow;}
+.red{color: red;}
+p{color:#65417F;}
 
-p{color:rgb(0, 255, 85);}
+.titulo{color: #006514; background-color: #FDE5C6}
+
+h1.dashed{background-color: #FDE5C6; border-width: 0.8; border-color: #16087D}
+
+img.right {position: right}
+img.left {position: left}
 
 a:hover{color:red}
 
 table {text-align: center;}
+
+.position1{position: absolute; left: 1%; top: 5%}
+
+.position2{position: absolute; right: 1%; top: 5%}
+
+body{background-color: #D3D3D3;}
+    table{text-align: center;}
+    p{font-family: "Comic Sans MS"; font-size: 15pt;}
+    table, th, td {border: 2px solid red;}
+    h3{text-align: center;}
+    h4{color: red}
+
+    .amarelo{
+        text-align: center;
+        border: 3px solid #16087D;
+        padding-top: 75px;
+        padding-right: 30px;
+        padding-bottom: 75px;
+        padding-left: 30px;
+        background-color: #FDE5C6;
+    }
+
+    .amarelo_2{
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        background-color: #FDE5C6;
+    }
+    .azul{
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        background-color: #8CCCF7;
+    }
+    div {text-align: center;}
+
+    .center{
+        text-align: center;
+        position: absolute;
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+    }
+
