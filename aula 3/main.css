@@ -8,7 +8,15 @@ div.absolute {position: relative;
 .red{color: red ; text-align: center}
 #red{color: red ; text-align: center}
 
-p.dashed {border-radius: 50%; border-color: orange; border-width: 8px; border-left-style: solid; border-right-style: groove; border-top-style: groove; border-bottom-style: solid; border-left-color: aqua; border-bottom-color: aqua}
+p.dashed {border-radius: 50%;
+    border-color: orange;
+    border-width: 8px;
+    border-left-style: solid;
+    border-right-style: groove;
+    border-top-style: groove;
+    border-bottom-style: solid;
+    border-left-color: aqua;
+    border-bottom-color: aqua}
 
 
 p{margin-top: 50px;
