@@ -8,19 +8,13 @@
 p{color:#65417F;}
 
 .titulo{color: #006514; background-color: #FDE5C6}
+.verde{color: #006514}
 
 h1.dashed{background-color: #FDE5C6; border-width: 0.8; border-color: #16087D}
-
-img.right {position: right}
-img.left {position: left}
 
 a:hover{color:red}
 
 table {text-align: center;}
-
-.position1{position: absolute; left: 1%; top: 5%}
-
-.position2{position: absolute; right: 1%; top: 5%}
 
 body{background-color: #D3D3D3;}
     table{text-align: center;}
@@ -29,40 +23,55 @@ body{background-color: #D3D3D3;}
     h3{text-align: center;}
     h4{color: red}
 
-    .amarelo{
-        text-align: center;
-        border: 3px solid #16087D;
-        padding-top: 75px;
-        padding-right: 30px;
-        padding-bottom: 75px;
-        padding-left: 30px;
-        background-color: #FDE5C6;
+.amarelo{
+    text-align: center;
+    border: 3px solid #16087D;
+    padding-top: 75px;
+    padding-right: 30px;
+    padding-bottom: 75px;
+    padding-left: 30px;
+    background-color: #FDE5C6;
     }
 
-    .amarelo_2{
-        text-align: center;
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        background-color: #FDE5C6;
+.amarelo_2{
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    background-color: #FDE5C6;
     }
-    .azul{
-        text-align: center;
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        background-color: #8CCCF7;
-    }
-    div {text-align: center;}
 
-    .center{
-        text-align: center;
-        position: absolute;
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
-        padding-left: 30px;
+.azul{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-color: #8CCCF7;
     }
+
+.position1{position: absolute; left: 1%; top: 7%}
+
+.position2{position: absolute; right: 1%; top: 7%}
+
+.center1{position: absolute; bottom: -203%; right: 2%}
+
+.center2{position: absolute; bottom: -203%; left: 1%}
+
+.iframe{position: absolute; left: 39% }
+
+
+.livro1{position: absolute; left: 20%}
+
+.livro2{position: absolute; left: 42%}
+
+.livro3{position: absolute; left: 70%}
+
+
+.home{position: absolute; left: 26%; top: 46%}
+
+.livros{position: absolute; left: 42%; top: 42.3%}
+
+.videos{position: absolute; left: 57%; top: 42.3%}
+
+.contatos{position: absolute; left: 73%; top: 42.3%}
 
