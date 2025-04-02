@@ -1,0 +1,9 @@
+.black {
+    background-color: rgb(109, 108, 108);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: gray;
+}
