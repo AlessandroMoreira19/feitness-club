@@ -1,9 +1,9 @@
-.black {
-    background-color: rgb(109, 108, 108);
+.green {
+    background-color: #8FFCD5;
     display: flex;
     justify-content: center;
 }
 
 body {
-    background-color: gray;
+    background-color: rgb(54, 54, 54);
 }
