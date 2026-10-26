@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Feitness Agendamentos</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <a href="home.html" class="menu_hover"><img class="titulo" src="feitness_club.png" height="160px"></a>
+        <div class="menu">
+            <a href="agendamentos.html" class="menu_hover">AGENDAMENTOS</a>
+            <a href="sobre.html" class="menu_hover">SOBRE</a>
+            <a href="autores.html" class="menu_hover">AUTORES</a>
+        </div>
+    </div>
+
+    <div class="img">
+        <img src="Gym-Agendamentos.jpg" width="1900">
+    </div>
+
+    <div>
+        <canvas id="canvas_agendamentos" class="canvas_slogan" height="650" width="1425"></canvas>
+    </div>
+
+    <div class="sobre-texto">
+        <h1 class="title_hover"><strong>Agende sua aula com Personal Trainer</strong></h1>
+        <p>No <strong>Feitness Club</strong>, você conta com um acompanhamento personalizado...</p>
+
+        <h2 class="title_hover">Nossa Metodologia</h2>
+        <p>Os treinos são planejados de forma personalizada...</p>
+
+        <h2 class="title_hover">Horários e Instrutores</h2>
+        <p>Funcionamos de <strong>segunda à sábado, das 8h às 20h</strong>...</p>
+        <ul>
+            <li><strong>08h às 14h:</strong> Atendimento com o personal <strong>Davi</strong></li>
+            <li><strong>14h às 20h:</strong> Atendimento com o personal <strong>Alessandro</strong></li>
+        </ul>
+
+        <p>Cada aula tem duração de <strong>1 hora</strong>...</p>
+
+        <h2 class="title_hover">Como Agendar</h2>
+        <p>Nesta página, você poderá visualizar uma <strong>tabela com os horários disponíveis</strong>...</p>
+        <p>Garanta já sua vaga e treine com acompanhamento profissional...</p>
+    </div>
+
+    <div class="container">
+        <div class="button">
+            <button id="togglePainel" class="button2">Mostrar Horários de Agendamento</button>
+        </div>
+
+        <div id="painel" class="painel">
+            <div class="agendamentos_tabela">
+                <div class="column">
+                    <h1 class="white">Agendar Aula:</h1>
+                    <form method="post" action="/cadastrar_aulas">
+                        <p class="white">Nome:</p> 
+                        <input type="text" name="usuario" required minlength="3">
+                        
+                        <p class="white">CPF:</p>
+                        <input type="number" name="cpf" required minlength="11" required maxlength="11">
+
+                        <p class="white">Horário:</p>
+                        <input type="number" name="horario" min="1" max="12">
+                        <br><br>
+                        <input type="submit" value="Marcar aula">
+                    </form>
+                </div>
+
+                <div>
+                    <img src="Tabela.png" height="360px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rodape">
+        <footer class="center">
+            <p>Instagram: <strong>@feitness_club</strong> | Telefone: <strong>(11) 94441-9502</strong> | Email:
+                <strong>feitnessclub@fei.edu.br</strong> | Maps:
+                <strong>Rua del Mooca, 123</strong>
+            </p>
+            <br>
+            <p><strong>Copyright © 2025 CLUBE DE ESPECIALIZAÇÂO E DESENVOLVIMENTO FEITNESS. Todos os direitos
+                    Reservados</strong></p>
+        </footer>
+    </div>
+
+    <script src="agendamentos.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,298 @@
+/* Define cor branca para elementos com a classe .white */
+.white {
+    color: white;
+}
+
+/* Define cor vermelha para elementos com a classe .red */
+.red {
+    color: #b10000;
+}
+
+/* Define fundo preto para elementos com a classe .black */
+.black {
+    background-color: #1d1d1d;
+}
+
+/* Efeito de aumento ao passar o mouse sobre elementos com classe .slogan */
+.slogan:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para o texto do slogan */
+.slogan {
+    position: absolute;
+    padding-left: 450px;
+    margin-top: -500px;
+    line-height: 0.8;
+    text-shadow: 4px 4px 4px #000000; /* sombra preta */
+    font-family: 'Horizon', 'Arial Black', sans-serif;
+    transition: transform 0.5s; /* transição suave para transformações */
+    display: flex;
+    align-content: center;
+}
+
+/* Estilos para o canvas usado no slogan */
+.canvas_slogan {
+    position: absolute;
+    padding-left: 250px;
+    margin-top: -650px;
+    transition: transform 0.8s;
+}
+
+/* Aumenta o canvas_slogan ao passar o mouse */
+.canvas_slogan:hover {
+    transform: scale(1.06);
+}
+
+/* Caixa de texto 'sobre' com fundo escuro, borda e sombra */
+.sobre-texto {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: x-large;
+    line-height: 1.6;
+    color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #1d1d1d;
+    box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.603);
+    transition: transform 0.35s;
+}
+
+/* Pequeno aumento ao passar o mouse sobre o texto 'sobre' */
+.sobre-texto:hover {
+    transform: scale(1.02);
+}
+
+/* Transição suave para títulos com classe .title_hover */
+.title_hover {
+    transition: transform 0.3s;
+}
+
+/* Cor vermelha e leve aumento ao passar o mouse sobre títulos */
+.title_hover:hover {
+    color: #b10000;
+    transform: scale(1.012);
+}
+
+/* Tamanhos de fonte para classes específicas */
+.p_slogan {
+    font-size: 60px;
+}
+
+.h1_slogan {
+    font-size: 100px;
+}
+
+/* Container para autores, usando flexbox para layout horizontal */
+.autor {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+/* Container vertical para autores com espaçamento */
+.autores {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 10px;
+    padding-right: 550px;
+}
+
+/* Possível erro (border-left com valor negativo não é válido) */
+.img {
+    border-left: -10px;
+}
+
+/* Imagens de autor com margem e sombra, com transição suave */
+.img_autor {
+    display: flex;
+    margin-left: 420px;
+    margin-top: 50px;
+    transition: transform 0.5s;
+    box-shadow: 8px 8px 10px #fffefe;
+}
+
+/* Centraliza botões horizontalmente */
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Transição para o segundo tipo de botão */
+.button2 {
+    transition: transform 0.5s;
+}
+
+/* Aumenta o botão ao passar o mouse */
+.button2:hover {
+    transform: scale(1.15);
+}
+
+/* Efeito para os autores Alessandro e Davi ao passar o mouse */
+.alessandro:hover,
+.davi:hover {
+    transform: scale(1.20);
+    background-color: #7c0000;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 8px 8px 8px #fffefe;
+}
+
+/* Aumenta imagem do autor ao passar o mouse */
+.img_autor:hover {
+    transform: scale(1.08);
+    box-shadow: 10px 10px 10px #fffefe;
+}
+
+/* Estilo base para os autores Davi e Alessandro */
+.davi,
+.alessandro {
+    background-color: #b10000;
+    border-radius: 25% 10%; /* bordas arredondadas */
+    color: white;
+    padding: 10px;
+    transition: transform 0.5s;
+    text-shadow: 4px 4px 4px #000000;
+    box-shadow: 4px 4px 6px #fffefe;
+}
+
+/* Efeito de aumento ao passar o mouse nos itens do menu */
+.menu_hover:hover {
+    transform: scale(1.1);
+}
+
+/* Centraliza conteúdos e ajusta espaçamento vertical */
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0.3;
+    color: white;
+}
+
+/* Layout flex para tabelas de agendamentos */
+.agendamentos_tabela {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilização do menu e links */
+.menu,
+a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    font-size: 20px;
+    padding: 15px, 10px, 10px, 10px; /* provável erro: vírgulas não são válidas para padding */
+    color: #e9e7e7;
+    text-decoration: none;
+    font-family: 'Horizon', 'Arial Black', sans-serif;
+    text-shadow: 2px 1px 3px #000000;
+    transition: transform 0.25s;
+}
+
+/* Tamanho da fonte e margem para título */
+.titulo {
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+/* Cor cinza claro ao passar o mouse em links */
+a:hover {
+    color: lightgrey;
+}
+
+/* Fundo preto para o corpo da página */
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+/* Cabeçalho com fundo vermelho e layout flex */
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+    margin-right: -8px;
+    padding-bottom: 3px;
+    margin-left: -8px;
+    background-color: #b10000;
+}
+
+/* Rodapé com fundo vermelho, centralizado */
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 50px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    background-color: #b10000;
+}
+
+/* Classe para direção coluna e fonte maior */
+.column {
+    flex-direction: column;
+    font-size: larger;
+}
+
+/* Estilo básico para botões */
+button {
+    padding: 10px 15px;
+    background: #b10000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Botão muda para vermelho mais escuro ao passar o mouse */
+button:hover {
+    background: #7c0000;
+}
+
+/* Container com margem e posição relativa para controle de elementos internos */
+.container {
+    position: relative;
+    margin: 20px;
+}
+
+/* Painel inicialmente oculto, com estilo semelhante ao texto 'sobre' */
+.painel {
+    display: none;
+    margin-top: 15px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #1d1d1d;
+    box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.603);
+    transition: transform 0.35s;
+}
+
+/* Animação para mostrar painel */
+.painel.animar {
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Leve aumento ao passar o mouse no painel */
+.painel:hover{
+    transform: scale(1.02);
+}
+
+/* Animação fadeIn: opacidade e deslocamento vertical */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
